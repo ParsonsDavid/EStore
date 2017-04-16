@@ -1,0 +1,236 @@
+<table>
+    <tr>
+        <th>Product Name</th>
+        <th>Manufacturer</th>
+        <th>Price</th>
+        <th>Stock</th>
+        <th>Image</th>
+        <th></th>
+
+    <tr ng-repeat="p in products" >
+        <td>{{p.product.title}}</td>
+        <td>{{p.product.manafactuer}}</td>
+        <td>{{p.product.price}}</td>
+        <td>{{p.product.stockQuanity}}</td>
+        <td>{{p.product.image}}</td>
+        <td><button ng-click="addToCart()" type="submit" class="btn btn-default">Add To Cart</button></td>
+
+    </tr>
+</table>
+
+
+<style>
+    .div1{
+        position: absolute;
+        left: 70px;
+        top: 378px;
+        border: 3px solid #c1c1c1;
+        padding: 0 0 0 -3px;
+        width: 500px;
+        font-size: 14px;
+        color: #636363;
+    }
+
+    .div2{
+        position: absolute;
+        left: 70px;
+        top: 498px;
+        border: 3px solid #c1c1c1;
+        padding: 0 0 0 -3px;
+        width: 500px;
+        font-size: 14px;
+        color: #636363;
+
+    }
+
+    .div3{
+        position: absolute;
+        left: 70px;
+        top: 632px;
+        border: 3px solid #c1c1c1;
+        padding: 0 0 0 -3px;
+        width: 500px;
+        font-size: 14px;
+        color: #636363;
+
+    }
+
+    .div4{
+        position: absolute;
+        left: 70px;
+        top: 768px;
+        border: 3px solid #c1c1c1;
+        padding: 0 0 0 -3px;
+        width: 500px;
+        font-size: 14px;
+        color: #636363;
+
+    }
+
+    .div5{
+        position: absolute;
+        left: 70px;
+        top: 908px;
+        border: 3px solid #c1c1c1;
+        padding: 0 0 0 -3px;
+        width: 500px;
+        font-size: 14px;
+        color: #636363;
+
+    }
+
+    .div6{
+        position: absolute;
+        left: 70px;
+        top: 1048px;
+        border: 3px solid #c1c1c1;
+        padding: 0 0 0 -3px;
+        width: 500px;
+        font-size: 14px;
+        color: #636363;
+
+    }
+
+    .div7{
+        position: absolute;
+        left: 70px;
+        top: 1200px;
+        border: 3px solid #c1c1c1;
+        padding: 0 0 0 -3px;
+        width: 500px;
+        font-size: 14px;
+        color: #636363;
+
+    }
+
+    .div8{
+        position: absolute;
+        left: 70px;
+        top: 1345px;
+        border: 3px solid #c1c1c1;
+        padding: 0 0 0 -3px;
+        width: 500px;
+        font-size: 14px;
+        color: #636363;
+
+    }
+
+    .div9{
+        position: absolute;
+        left: 70px;
+        top: 1500px;
+        border: 3px solid #c1c1c1;
+        padding: 0 0 0 -3px;
+        width: 500px;
+        font-size: 14px;
+        color: #636363;
+
+    }
+
+    .div10{
+        position: absolute;
+        left: 70px;
+        top: 1645px;
+        border: 3px solid #c1c1c1;
+        padding: 0 0 0 -3px;
+        width: 500px;
+        font-size: 14px;
+        color: #636363;
+
+    }
+
+    .div11{
+        position: absolute;
+        left: 70px;
+        top: 1790px;
+        border: 3px solid #c1c1c1;
+        padding: 0 0 0 -3px;
+        width: 500px;
+        font-size: 14px;
+        color: #636363;
+
+    }
+
+    .div12{
+        position: absolute;
+        left: 70px;
+        top: 1930px;
+        border: 3px solid #c1c1c1;
+        padding: 0 0 0 -3px;
+        width: 500px;
+        font-size: 14px;
+        color: #636363;
+
+    }
+
+    .nav{
+        background-color: #ffffff;
+        color: #000000;
+        list-style: none;
+        text-align: right;
+        padding: 20px 0 0 0;
+        font-size: 13px;
+    }
+
+    .nav > li {
+        display: inline-block;
+        padding: 0 25px 0 25px;
+    }
+
+    .nav > li > a {
+        text-decoration: none;
+        color: #000000;
+
+    }
+
+    .nav > li > a:hover{
+        color: #c1c1c1;
+    }
+
+    .logo{
+        color: #000000;
+        float: left;
+        padding-left: 25px;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .banner{
+        width: 100%;
+        display: block;
+    }
+
+    .banner > .banner-image {
+        width: 100%;
+        height: 250px;
+        display: block;
+    }
+
+    .heading {
+        text-align: left;
+        font-size: 30px;
+        color: #c1c1c1;
+        margin: 38px 50px 100px 75px;
+    }
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    th, td {
+        text-align: left;
+        padding: 8px;
+    }
+
+    tr:nth-child(even){background-color: #f2f2f2}
+
+    th {
+        background-color: darkgreen;
+        color: white;
+    }
+    .h1.uppercase{
+        text-transform: uppercase;
+    }
+</style>
+
+
