@@ -7,10 +7,8 @@ $scope.loginAdmin = function () {
         .success(function (data, status) {
             if (status == 200) {
                 $scope.admin = data;
-
                 console.log($scope.admin, "Logged in admin");
-
-
+                $state.go("addProduct");
             }
         }).error(function (error) {
         alert("not working");
