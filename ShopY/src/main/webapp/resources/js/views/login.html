@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<form>
+
+
+    <div class="container">
+        <div class="form-group">
+            <label for="username">User:</label>
+            <input ng-model="userLogin.username" type="text" class="form-control" id="username">
+        </div>
+        <div class="form-group">
+            <label for="pwd">Password:</label>
+            <input ng-model="userLogin.password" type="password" class="form-control" id="pwd">
+        </div>
+        <button ng-click="loginUser()" type="submit" class="btn btn-default">Submit</button>
+    </div>
+</form>
+
+
+</body>
+</html>
+<style>
+    form {
+        border: 3px solid #f1f1f1;
+
+    }
+
+    input[type=text], input[type=password] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid darkgreen;
+        box-sizing: border-box;
+    }
+
+    button {
+        background-color: darkgreen;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+    }
+
+    button:hover {
+        opacity: 0.8;
+    }
+
+
+</style>
